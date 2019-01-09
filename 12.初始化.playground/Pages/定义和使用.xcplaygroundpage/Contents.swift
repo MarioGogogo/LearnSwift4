@@ -73,7 +73,11 @@ struct kaoshi{
         let superyuwenpointkaoshifen = superyunwenpoint.kaoshifen + 100
         
     }
-    
+      init(superyunwenpoint:yuwen,supertiyupoint:tiyu) {
+        let superyunwenpinshifen = superyunwenpoint.pinshifen + 100
+        let superyuwenpointkaoshifen = superyunwenpoint.kaoshifen + 100
+        
+    }
     
     
     
